@@ -28,3 +28,4 @@ It showcases my profile, skills, projects, education, and contact information in
 
 ## 📂 Folder Structure
 
+Last updated on: 5 Feb 2026
