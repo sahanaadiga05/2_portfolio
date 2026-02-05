@@ -1,3 +1,4 @@
+
 :root {
     /* Default: Dark Mode */
     --bg-color: #020617;
@@ -257,4 +258,23 @@ a {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+}
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--section-bg);
+    color: #d28520;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 75%;
+    font-size: 18px;
+    cursor: pointer;
+    display: none; /* hidden by default */
+    z-index: 1000;
+    
+}
+
+#scrollTopBtn:hover {
+    opacity: 0.85;
 }
