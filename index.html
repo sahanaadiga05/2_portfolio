@@ -1,150 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-        <!-- pushing test -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahana Adiga V - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v6m0 6v6m8.66-11.66l-4.24 4.24M7.76 16.24l-4.24 4.24M23 12h-6m-6 0H1m20.66 8.66l-4.24-4.24M7.76 7.76L3.52 3.52"/>
+        </svg>
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
 
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sahana Adiga V - Portfolio</title>
-    </head>
-    <body>
-        <button id="themeToggle" class="theme-toggle">🌙</button>
-        
-        <header>
-            <img src="assets/images/photo.jpeg" alt="SAHANA ADIGA V" width="200" height="200">
-            <h1>Sahana Adiga V</h1>
-            <h2><strong>AIML Student | Web Developer | UI/UX Enthusiast</strong></h2>
-            <p> 
-                Creative thinker with a strong passion for problem-solving 
-            </p>
-        </header>
-
-        <hr>
-
-        <main>
-            <section id="about">
-                <h2>ABOUT ME</h2>
-                <p>  I am an artificial intelligence and machine learning engineering student interested in web development,
-                problem solving, and building practical projects using modern technologies.</p>
-            </section>
-
-            <hr>
-
-            <section id="skills">
-                <h2>SKILLS</h2>
-                <h3> Programming Languages</h3>
-                <ul>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-                
-                <h3> Frameworks & Tools</h3>
-                <ul>
-                    <li>React.js</li>
-                    <li>Node.js & Express.js</li>
-                    <li>Next.js</li>
-                    <li>Git & GitHub</li>
-                    <li>Power BI</li>
-                    <li>Figma</li>
-                    <li>MySQL</li>
-                </ul>
-
-                <h3>DataBase</h3>
-                <ul>
-                    <li>SQL</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </section>
-
-            <hr>
-
-            <section id="projects">
-                <h2>PROJECTS</h2>
-                
-                <div class="projects-grid">
-                <article class="project-card">
-                    <h3>1. SaaS Task Management System </h3>
-                    <p><strong>Tech Stacks:</strong>React.js, Next.js, JavaScript, React Hooks, Axios, Next.js, Express.js, MySQL.</p>
-                    <p>Designed and developed a full-stack SaaS task management platform that enables users to create, track, and manage personal and collaborative tasks with status tagging. Implemented smart reminders with tiered urgency and reusable task templates, and built shared collaboration spaces using RESTful APIs, MVC architecture, and secure JWT-based authentication.</p>
-                    <p><a href="https://github.com/sahanaadiga05/TASK_MANAGEMENT">GitHub</a></p>
-                </article>
-
-
-                <article class="project-card">
-                    <h3>2. Expense Tracker Web app </h3>
-                    <p><strong>Tech Stacks:</strong>HTML, CSS, JavaScript, EXpress.js, Node.js</p>
-                    <p>Developed a web-based expense tracker that allows users to record and monitor daily expenses efficiently. Built backend services using Node.js and Express.js to store, retrieve, and manage expense data in JSON format, and ensured smooth data handling with a clean, user-friendly interface.</p>
-                    <p><a href="https://github.com/sahanaadiga05/EXPENSE_TRACKER">GitHub</a></p>
-                </article>
-
-                <article class="project-card">
-                    <h3>3. Real -Time Stock Price Tracker  </h3>
-                    <p><strong>Tech Stacks:</strong>Linux, C++, Multi-threading, REST API, JSON, File Handling, Logging, CMake. </p>
-                    <p>Built a real-time stock tracking system in C++ on Linux capable of processing over 1000 live price updates per second using optimized multithreading. Integrated high-performance REST APIs with JSON parsing to achieve sub-100 ms latency, and implemented efficient file handling, structured logging, and CMake-based builds to improve performance and build efficiency.</p>
-                </article>
-                </div>
-            </section>
-
-            <hr>
-
-            <section id="EXPERIENCE">
-                <h2>WORK EXPERIENCE</h2>
-                <article>
-                    <h3>Linux Developer</h3>
-                    <p><strong>Sasken technologies Limited</strong> | <em>June 2025 - August 2025</em></p>
-                    <p> Developed a secure multi-threaded C++ real-time stock tracker with live API integration, user-defined alerts, and mTLS-based 
-encryption, showcasing concurrency, networking, and system-level programming skills</p>
-                </article>
-            </section>
-
-            <hr>
-
-            <section id="education">
-                <h2>EDUCATION</h2>
-
-                <article>
-                    <h3>Bachelor of Engineering in Artificial Intelligence and Machine Learning </h3>
-                    <p><strong>RNS Institute of technology</strong> | <em>2022-2026</em></p>
-                    <p>CGPA: 8.5/10</p>
-                </article>
-            </section>
-            
-            <hr>
-
-            <section id="certi">
-                <h2>CERTIFICATIONS</h2>
-                <ul>
-                    <li>Microsoft power BI-Infosys SpringBoard. (Nov 3,2024)</li>
-                    <li>Data structure and algorithms - Infosys SpringBaord (July 17 2024) </li>
-                </ul>
-            </section>
-
-            <hr>
-
-            <section id="contact">
-            <h2>CONTACT ME</h2>
-            <address>
-                <p><strong>Email:</strong><a href="mailto:sahanaadigav@gmail.com">sahanaadigav@gmail.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+919380725721">9380725721</a></p>
-                <p><strong>Location:</strong> Banglore, India</p>
-            </address>
-
-            <h3>CONNECT WITH ME</h3>
-            <ul>
-                <li><a href="https://github.com/sahanaadiga05" target="_blank">GitHub</a></li>
-                <li><a href=""https://www.linkdin.com/in/sahana-adiga-296441291" target="_blank">LinkedIn</a></li>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">SAHANA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </main>
-        <button id="scrollTopBtn">⬆️</button>
-        <script src="js/script.js"></script>
-    </body>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>SAHANA</span>
+                    <span class="gradient-text">ADIGA V</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Creative thinker with a passion for problem-solving and software development. 
+                    AI & ML undergraduate eager to embrace new technologies and agile methodologies 
+                    to craft innovative solutions. Committed to effective communication and 
+                    collaborative teamwork for seamless project execution.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">WHO I AM</div>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Computer Science student specializing in Artificial Intelligence 
+                        and Machine Learning at R.N.S Institute of Technology, Bengaluru. With a strong 
+                        foundation in software development and a creative mindset, I thrive on solving 
+                        complex problems through innovative technological solutions.
+                    </p>
+                    <p>
+                        My journey in tech has led me to work with cutting-edge technologies including 
+                        C++, React.js, Node.js, and more. I combine technical expertise with creativity 
+                        to build efficient, scalable applications that make a real-world impact. Beyond 
+                        coding, I'm deeply interested in art, music, and photography.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">8.5</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Major Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                    <div class="interests">
+                        <div class="interest-tag">🎨 Drawing & Sketches</div>
+                        <div class="interest-tag">🎵 Music</div>
+                        <div class="interest-tag">📚 Reading Books</div>
+                        <div class="interest-tag">📷 Photography</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/photo.jpeg" alt="Sahana Adiga V">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">ACADEMIC BACKGROUND</div>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-card">
+                <div class="education-header">
+                    <div>
+                        <div class="education-title">Bachelor of Engineering</div>
+                        <div class="education-institution">Artificial Intelligence and Machine Learning</div>
+                        <div class="education-institution">R.N.S Institute of Technology</div>
+                        <div class="education-location">Bengaluru, India</div>
+                        <div class="education-gpa">CGPA: 8.5/10.00</div>
+                    </div>
+                    <div class="education-date">Dec 2022 – August 2026</div>
+                </div>
+                <p style="color: var(--text-secondary); margin-top: 20px; line-height: 1.8;">
+                    <strong>Relevant Coursework:</strong> Data Structures, Algorithm Design, 
+                    Computer Networks, Database Management Systems
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">PROFESSIONAL JOURNEY</div>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-role">Software Development Intern</div>
+                        <div class="experience-company">Sasken Technologies</div>
+                    </div>
+                    <div class="experience-date">June 2025 – July 2025</div>
+                </div>
+                <p class="experience-description">
+                    Developed a secure multi-threaded C++ real-time stock tracker with live API integration, 
+                    user-defined alerts, and mTLS-based encryption, showcasing concurrency, networking, 
+                    and system-level programming skills. Successfully implemented efficient solutions that 
+                    handled high-frequency data processing while maintaining security and performance standards.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">TECHNICAL EXPERTISE</div>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3 class="skill-title">Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Next.js</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-title">Database Management</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3 class="skill-title">Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3 class="skill-title">Development Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Multi-threading</span>
+                        <span class="skill-tag">JSON</span>
+                        <span class="skill-tag">CMake</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3 class="skill-title">Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">English</span>
+                        <span class="skill-tag">Hindi</span>
+                        <span class="skill-tag">Kannada</span>
+                        <span class="skill-tag">Telugu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">MY WORK</div>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📈</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Stock Price Tracker</h3>
+                        <p class="project-description">
+                            Built a high-performance real-time stock tracking system in C++ on Linux, 
+                            processing 1000+ live price updates per second through optimized multithreading. 
+                            Integrated REST API pipelines with JSON parsing, delivering market data with 
+                            <100ms latency. Implemented efficient file handling and CMake-based builds, 
+                            reducing I/O overhead by 35% and improving build speed by 25%.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Multi-threading</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">JSON</span>
+                            <span class="tag">CMake</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">✅</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SaaS Task Management System</h3>
+                        <p class="project-description">
+                            Designed and developed a full-stack SaaS task management platform enabling users 
+                            to create, track, and manage personal and collaborative tasks. Implemented smart 
+                            reminder functionality with tiered urgency levels and reusable life-category task 
+                            templates. Built shared "Circles" for real-time collaboration using React, Node.js, 
+                            Express.js, and MySQL with RESTful APIs, MVC architecture, and JWT-based authentication.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">💰</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Expense Tracker Web App</h3>
+                        <p class="project-description">
+                            Developed a web-based expense tracker using HTML, CSS, and JavaScript that allows 
+                            users to record and view their daily expenses. Built backend services with Node.js 
+                            and Express.js to store, retrieve, and manage expense data using JSON. Implemented 
+                            a clean UI and efficient data handling to ensure smooth entry, display, and 
+                            management of all recorded expenses.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">JSON</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">ACHIEVEMENTS</div>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">📊</div>
+                    <div class="certificate-info">
+                        <h3>Microsoft Power BI</h3>
+                        <div class="certificate-date">Infosys SpringBoard • November 3, 2024</div>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">💡</div>
+                    <div class="certificate-info">
+                        <h3>Data Structures and Algorithms</h3>
+                        <div class="certificate-date">Infosys SpringBoard • July 17, 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-tag">GET IN TOUCH</div>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:sahanaadigav@gmail.com" class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <div style="font-weight: 600;">Email</div>
+                                <div style="color: var(--text-secondary);">sahanaadigav@gmail.com</div>
+                            </div>
+                        </a>
+                        <a href="tel:+919380725721" class="contact-method">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <div style="font-weight: 600;">Phone</div>
+                                <div style="color: var(--text-secondary);">+91-9380 725721</div>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sahana-adiga-v" target="_blank" class="contact-method">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <div style="font-weight: 600;">LinkedIn</div>
+                                <div style="color: var(--text-secondary);">Connect with me</div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/sahanaadigav" target="_blank" class="contact-method">
+                            <div class="contact-icon">🔗</div>
+                            <div>
+                                <div style="font-weight: 600;">GitHub</div>
+                                <div style="color: var(--text-secondary);">View my projects</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell me about your inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>SAHANA ADIGA V</h3>
+                <p>AI & ML Student | Creative Problem Solver | Software Developer</p>
+                <div class="social-links">
+                    <a href="hhttps://www.linkedin.com/in/sahanaadiga213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link">💼</a>
+                    <a href="https://github.com/sahanaadiga05" target="_blank" class="social-link">🔗</a>
+                    <a href="mailto:sahanaadigav@gmail.com" class="social-link">📧</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:sahanaadigav@gmail.com">Email Me</a></li>
+                    <li><a href="tel:+919380725721">Call Me</a></li>
+                    <li><a href="#contact">Contact Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sahana Adiga V. All rights reserved. | Bengaluru, India</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
-
-
-<!-- pushing test -->
- <!--"www.linkdin.com/in/sahana-adiga-296441291"-->
