@@ -1,4 +1,4 @@
-// Theme Toggle Functionality
+//sctipt.js
 const themeToggle = document.getElementById('themeToggle');
 const htmlElement = document.documentElement;
 
